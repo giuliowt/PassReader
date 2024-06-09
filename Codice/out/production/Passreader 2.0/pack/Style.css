@@ -1,0 +1,127 @@
+.root {
+    -fx-background-color: #191919;
+}
+
+.text-field {
+    -fx-border-insets: 0;
+    -fx-background-color: none;
+    -fx-border-color: #3498db;
+    -fx-alignment: center;
+    -fx-padding: 14px 10px;
+    -fx-text-fill: white;
+    -fx-border-radius: 24px;
+    -fx-border-style: solid;
+}
+
+.text-field:focused {
+    -fx-border-color: #2ecc71;
+}
+
+#addField {
+    -fx-border-width: 0px 0px 2px 0px;
+    -fx-border-radius: 0px;
+    -fx-padding: 5px;
+}
+
+#crdBtn {
+    -fx-border-insets: 0;
+    -fx-background-color: none;
+    -fx-border-color: #2ecc71;
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-border-style: solid;
+    -fx-cursor: pointer;
+}
+
+#crdBtn:hover {
+    -fx-opacity: 0.5;
+}
+
+#LoginBtn {
+    -fx-border-insets: 0;
+    -fx-background-color: none;
+    -fx-border-color: #2ecc71;
+    -fx-alignment: center;
+    -fx-padding: 14px 40px;
+    -fx-text-fill: white;
+    -fx-border-radius: 24px;
+    -fx-border-style: solid;
+    -fx-cursor: pointer;
+}
+
+#AccountBtn {
+    -fx-background-color: none;
+    -fx-text-fill: white;
+}
+
+#choiceBtn {
+    -fx-border-insets: 0;
+    -fx-background-color: none;
+    -fx-border-color: #c9c506;
+    -fx-alignment: center;
+    -fx-padding: 7px 20px;
+    -fx-text-fill: white;
+    -fx-border-radius: 24px;
+    -fx-border-style: solid;
+    -fx-cursor: pointer;
+}
+
+#choiceBtn:hover {
+    -fx-opacity: 0.5;
+}
+
+#AccountBtn:hover {
+    -fx-opacity: 0.5;
+}
+
+#LoginBtn:hover {
+   -fx-opacity: 0.5;
+}
+
+.table-view {
+    -fx-background-color: #828282;
+}
+
+.table-view * {
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #828282;
+}
+
+.table-view .label {
+    -fx-background-color: #828282;
+}
+
+.table-view .table-row-cell {
+    -fx-border-width: 1;
+}
+
+.table-view .scroll-bar * {
+    -fx-min-height: 0;
+    -fx-pref-height: 0;
+    -fx-max-height: 0;
+}
+
+.table-row-cell:even {
+    -fx-background-color: #595959;
+}
+
+.table-view .filler{
+    -fx-background-color: #828282;
+}
+
+.menu-bar {
+    -fx-background-color: transparent;
+}
+
+#AccountMenu .label{
+    -fx-text-fill: white;
+}
+
+* {
+    -fx-font-family: monospace;
+}
+
+

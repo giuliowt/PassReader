@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Passreader 2.0:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Passreader_2_0_jar</output-path>
+    <root id="archive" name="Passreader 2.0.jar">
+      <element id="module-output" name="Passreader 2.0" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Utilities/Java/javafx/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Utilities/Java/javafx/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Utilities/Java/javafx/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Utilities/Java/javafx/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Utilities/Java/javafx/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Utilities/Java/javafx/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Utilities/Java/javafx/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../Utilities/Java/javafx/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/json-simple-1.1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/guava-29.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

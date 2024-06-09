@@ -1,0 +1,61 @@
+.root {
+    -fx-background-color: #191919;
+}
+
+.text-field {
+    -fx-border-insets: 0;
+    -fx-background-color: none;
+    -fx-border-color: #3498db;
+    -fx-alignment: center;
+    -fx-padding: 14px 10px;
+    -fx-text-fill: white;
+    -fx-border-radius: 24px;
+    -fx-border-style: solid;
+}
+
+.text-field:focused {
+    -fx-border-color: #2ecc71;
+}
+
+#LoginBtn {
+    -fx-border-insets: 0;
+    -fx-background-color: none;
+    -fx-border-color: #2ecc71;
+    -fx-alignment: center;
+    -fx-padding: 14px 40px;
+    -fx-text-fill: white;
+    -fx-border-radius: 24px;
+    -fx-border-style: solid;
+    -fx-cursor: pointer;
+}
+
+#AccountBtn {
+    -fx-background-color: none;
+    -fx-text-fill: white;
+}
+
+#AccountBtn:hover {
+    -fx-opacity: 0.5;
+}
+
+#LoginBtn:hover {
+   -fx-opacity: 0.5;
+}
+
+.menu-bar {
+    -fx-background-color: transparent;
+}
+
+.check-box:selected {
+    -fx-background-color: white;
+}
+
+#AccountMenu .label{
+    -fx-text-fill: white;
+}
+
+* {
+    -fx-font-family: monospace;
+}
+
+

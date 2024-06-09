@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pack.Controller">
+   <children>
+      <TextField fx:id="userInput" alignment="CENTER" layoutX="180.0" layoutY="121.0" prefHeight="47.0" prefWidth="244.0" promptText="Username" />
+      <Button id="LoginBtn" layoutX="238.0" layoutY="277.0" mnemonicParsing="false" onAction="#Login" prefHeight="25.0" prefWidth="131.0" text="Login">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <PasswordField fx:id="passwordInput" alignment="CENTER" layoutX="181.0" layoutY="176.0" onKeyTyped="#showPassword" prefHeight="47.0" prefWidth="244.0" promptText="Password" />
+      <TextField fx:id="visiblePasswordInput" alignment="CENTER" layoutX="181.0" layoutY="176.0" onKeyTyped="#hidePassword" prefHeight="47.0" prefWidth="244.0" promptText="Password" visible="false" />
+      <CheckBox id="PassBox" fx:id="PasswordBox" layoutX="150.0" layoutY="240.0" mnemonicParsing="false" onAction="#ActionPasswordBox" text="Show password" textFill="WHITE" />
+      <Button id="AccountBtn" mnemonicParsing="false" onAction="#newAccount" text="New Account..." />
+   </children>
+</Pane>
